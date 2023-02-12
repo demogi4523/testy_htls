@@ -1,0 +1,20 @@
+{
+  "name": "testy_htls",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demogi4523/testy_htls.git"
+  },
+  "author": "demogi4523 <demogi4523@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demogi4523/testy_htls/issues"
+  },
+  "homepage": "https://github.com/demogi4523/testy_htls#readme"
+}
