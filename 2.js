@@ -6,7 +6,7 @@
 export default function (float_num, default_up = true) {
   /**
   * @param {float}   float_num   Число с плавающей точкой
-  * @param {boolean} default_up  При абсолютном равенстве округлять вверх
+  * @param {Boolean} default_up  При абсолютном равенстве округлять вверх
   * @return {int}                Возвращает округленное до 5 целое число
   */
 

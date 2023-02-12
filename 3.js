@@ -9,14 +9,14 @@ export default function (computer_amount) {
   let res;
   const reminder = computer_amount % 10;
   switch (reminder) {
-    case 1:  // if (x === 'value1')
+    case 1:
       {
         res = "1 компьютер";
         break;
       }
-    case 2:  // if (x === 'value2')
-    case 3:  // if (x === 'value2')
-    case 4:  // if (x === 'value2')
+    case 2:
+    case 3:
+    case 4:
       {
         res = computer_amount + " компьютера";
         break;
