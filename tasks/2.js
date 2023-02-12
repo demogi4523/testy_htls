@@ -22,6 +22,10 @@ export default function (float_num, default_up = true) {
     max_val += 1;
   }
 
-  res = (float_num - min_val) < (max_val - float_num) ? min_val : max_val;
-  return res
+  const expr = default_up ?
+    (float_num - min_val) < (max_val - float_num) :
+    (float_num - min_val) <= (max_val - float_num);
+
+  const res = expr ? min_val : max_val;
+  return res;
 }

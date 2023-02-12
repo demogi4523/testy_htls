@@ -11,7 +11,7 @@ export default function (computer_amount) {
   switch (reminder) {
     case 1:
       {
-        res = "1 компьютер";
+        res = computer_amount + " компьютер";
         break;
       }
     case 2:

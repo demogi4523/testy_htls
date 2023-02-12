@@ -5,7 +5,7 @@
 // [7, 17, 1, 9, 1, 17, 56, 56, 23], [56, 17, 17, 1, 23, 34, 23, 1, 8, 1]
 // На выходе [1, 17]
 
-export default function getDouble(arr, otherArr, copy = true) {
+export default function getDouble(arr, otherArr, copy = true, sort = true) {
   /**
   * @param {Array[int]}      arr        массив с числами
   * @param {Array[int]}      otherArr   другой массив с числами
@@ -56,5 +56,9 @@ export default function getDouble(arr, otherArr, copy = true) {
     }
   }
 
-  return Array.from(res);
+  const finalRes = Array.from(res);
+  if (sort) {
+    finalRes.sort();
+  }
+  return finalRes;
 }

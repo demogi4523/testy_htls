@@ -5,7 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "1": "node demo/1.js",
+    "2": "node demo/2.js",
+    "3": "node demo/3.js",
+    "4": "node demo/4.js",
+    "5": "node demo/5.js",
+    "6": "node demo/6.js"
   },
   "repository": {
     "type": "git",
